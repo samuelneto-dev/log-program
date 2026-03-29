@@ -17,5 +17,5 @@ let mediavendas = valorTotal / dias;
 
 
 console.log("Calculo total vendido", valorTotal);
-console.log("Maior numero:", maiorvalor)
+console.log("Maior numero:", maiorvalor);
 console.log("Media de dias:", mediavendas.toFixed(2));

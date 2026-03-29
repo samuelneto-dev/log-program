@@ -15,3 +15,4 @@ let mediaTemperatura = valor/temp.length
 
 console.log("Quantas vezes passou de 80:",mediaCalor );
 console.log("Media de temperatura", mediaTemperatura);
+

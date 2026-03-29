@@ -15,5 +15,6 @@ for(let i = 0; i < estoque.length; i++) {
    }
 
 }
+
 console.log("Numeros de reposição:", reposicoes);
 

@@ -8,3 +8,5 @@ for (let i = 0; i < numeros.length ; i++)  {
 
 }
  console.log("Soma total", soma);
+
+ 

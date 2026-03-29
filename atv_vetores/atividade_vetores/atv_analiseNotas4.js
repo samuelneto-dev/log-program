@@ -14,4 +14,4 @@ for(let i = 0; i < notas.length; i++) {
 let media = valor / notas.length;
 
 console.log("Media:",media);
-console.log("Maior nota:", maiorvalor)
+console.log("Maior nota:", maiorvalor);
