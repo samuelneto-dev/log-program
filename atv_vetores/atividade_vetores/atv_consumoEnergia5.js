@@ -15,3 +15,5 @@ for (let i = 0; i < energia.length ; i++)  {
     }
     let media = soma / energia.length
     console.log("Media", media.toFixed(2));
+
+    
