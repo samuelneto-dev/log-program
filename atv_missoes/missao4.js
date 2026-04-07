@@ -22,7 +22,7 @@ while (opcao !== '3') {
     else if (opcao === '2') {
         console.log('Lista de alunos:');
         for (let p = 0; p < nomes.length; p++) {
-            console.log(`${nomes[p]} - Nota: ${notas[p]}`);
+            console.log(`${nomes[p]} - Nota: ${notas[p]} - ${notas[p] >=7 ? 'Aprovado' : 'Reprovado'}`);
         }
     } 
     
