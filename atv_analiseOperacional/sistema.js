@@ -40,16 +40,19 @@ while (opcao !== '5') {
     }
     else if(opcao === '3'){
         for (let p = 0; p < prazo.length; p++) {
-            if(prazo[p] === 1){
+            if(prazo[p] <=2){
                 inter1++;
-            }else if(prazo[p] === 2){
+            }else if(prazo[p] >= 3 && prazo[p] <= 5){
                 inter2++;
-            }else if(prazo[p] === 3){
+            }else if(prazo[p] >= 6 && prazo[p] <= 10){
                 inter3++;
-            }else if(prazo[p] === 4){
+            }else if(prazo[p] > 10){
                 inter4++;
             }
         }
-        console.log(`Prazos: 1 dia: ${inter1} pedidos, 2 dias: ${inter2} pedidos, 3 dias: ${inter3} pedidos, 4 dias: ${inter4} pedidos`);
+        console.log(`Pedidos com prazo de 2 dias: ${inter1}`);
+        console.log(`Pedidos com prazo de 3 a 5 dias: ${inter2}`);
+        console.log(`Pedidos com prazo de 6 a 10 dias: ${inter3}`);
+        console.log(`Pedidos com prazo acima de 10 dias: ${inter4}`);
     }
 }
