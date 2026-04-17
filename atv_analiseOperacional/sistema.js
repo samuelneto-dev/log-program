@@ -5,12 +5,7 @@ quantidade = [];
 setor = [];
 prazo = [];
 opcao ='';
-
-//Lista prazos
-let inter1 = 0;
-let inter2 = 0;
-let inter3 = 0;
-let inter4 = 0;
+prioridade = '';
 
 while (opcao !== '5') {
     console.log('\n======== MENU ========');
@@ -35,24 +30,47 @@ while (opcao !== '5') {
     }else if(opcao === '2'){
         console.log('Lista de pedidos:');
         for (let p = 0; p < produto.length; p++) {
+            
             console.log(`${produto[p]} - Quantidade: ${quantidade[p]} - Setor: ${setor[p]} - Prazo: ${prazo[p]}`);
         }
-    }
-    else if(opcao === '3'){
+    }else if(opcao === '3'){
+       
         for (let p = 0; p < prazo.length; p++) {
             if(prazo[p] <=2){
-                inter1++;
+                
+                  prioridade = "Urgente";
             }else if(prazo[p] >= 3 && prazo[p] <= 5){
-                inter2++;
+              
+                 prioridade = "Alta";
             }else if(prazo[p] >= 6 && prazo[p] <= 10){
-                inter3++;
+               
+                 prioridade = "Média";
             }else if(prazo[p] > 10){
-                inter4++;
+               
+                 prioridade = "Baixa";
             }
+            console.log(`${prioridade} - ${produto[p]} - Quantidade: ${quantidade[p]} - Setor: ${setor[p]} - Prazo: ${prazo[p]}`);
+            }
+        }else if (opcao === '4') {
+        let busca = prompt('Qual produto deseja buscar? ');
+        let existe = false;
+        
+     console.log('\n--- Resultado da Busca ---');
+   
+        for (let i = 0; i < produto.length; i++) {
+            if (busca.toLowerCase() === produto[i].toLowerCase()) {
+                console.log(`${prioridade} - ${produto[i]} - Quantidade: ${quantidade[i]} - Setor: ${setor[i]} - Prazo: ${prazo[i]} dias`);
+               
+            }
+          
         }
-        console.log(`Pedidos com prazo de 2 dias: ${inter1}`);
-        console.log(`Pedidos com prazo de 3 a 5 dias: ${inter2}`);
-        console.log(`Pedidos com prazo de 6 a 10 dias: ${inter3}`);
-        console.log(`Pedidos com prazo acima de 10 dias: ${inter4}`);
+    }else if(opcao == '5'){
+        console.log("\n---- Resumo ----")
+            for (let a = 0; a < produto.length; a++) {
+            console.log(`${prioridade} - ${produto[a]} - Quantidade: ${quantidade[a]} - Setor: ${setor[a]} - Prazo: ${prazo[a]}`);
+        }
+         console.log('\n=== Saindo ===');
+     break;
     }
+
 }
