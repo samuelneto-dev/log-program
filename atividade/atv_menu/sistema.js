@@ -70,6 +70,7 @@ while (opcao !== '5') {
             console.log(`${prioridade} - ${produto[a]} - Quantidade: ${quantidade[a]} - Setor: ${setor[a]} - Prazo: ${prazo[a]}`);
         }
          console.log('\n=== Saindo ===');
+         console.log('Obrigado');
      break;
     }
 
