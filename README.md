@@ -29,12 +29,14 @@ log-program/
 - Vetores
 - Funções
 
-## ▶️ Como executar
+## 📊 Estatísticas
+<p>
+  <img height="180" alt="Estatísticas do GitHub" src="https://github-readme-stats.vercel.app/api?username=samuelneto-dev&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />
+  <img height="180" alt="Linguagens mais usadas" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samuelneto-dev&layout=compact&theme=dracula&langs_count=8" />
+</p>
+## 🚀 Projetos em destaque
+- [Lógica de Programação — SENAI](https://github.com/samuelneto-dev/log-program): exercícios em C e JavaScript
 
-**C** (com o GCC instalado):
-```bash
-gcc arquivo.c -o programa
-./programa
 ```
 
 **JavaScript** (com o Node.js instalado):
