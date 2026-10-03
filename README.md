@@ -32,8 +32,9 @@ log-program/
 ## 📊 Estatísticas
 <p>
   <img height="180" alt="Estatísticas do GitHub" src="https://github-readme-stats.vercel.app/api?username=samuelneto-dev&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />
-  <img height="180" alt="Linguagens mais usadas" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samuelneto-dev&layout=compact&theme=dracula&langs_count=8" />
+  <img height="180" alt="Linguagens mais usadas" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samuelneto-dev&layout=compact&theme=dracula&langs_count=2&hide=java,html,css,scss,python,typescript,c%2B%2B,c%23,php,shell,batchfile,dockerfile,go,kotlin,dart,ruby,jupyter%20notebook" />
 </p>
+
 ## 🚀 Projetos em destaque
 - [Lógica de Programação — SENAI](https://github.com/samuelneto-dev/log-program): exercícios em C e JavaScript
 
