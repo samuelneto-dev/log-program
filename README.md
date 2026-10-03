@@ -35,15 +35,5 @@ log-program/
   <img height="180" alt="Linguagens mais usadas" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samuelneto-dev&layout=compact&theme=dracula&langs_count=2&hide=java,html,css,scss,python,typescript,c%2B%2B,c%23,php,shell,batchfile,dockerfile,go,kotlin,dart,ruby,jupyter%20notebook" />
 </p>
 
-## 🚀 Projetos em destaque
-- [Lógica de Programação — SENAI](https://github.com/samuelneto-dev/log-program): exercícios em C e JavaScript
-
-```
-
-**JavaScript** (com o Node.js instalado):
-```bash
-node arquivo.js
-```
-
 ## 👨‍💻 Autor
 **Samuel Neto** — [@samuelneto-dev](https://github.com/samuelneto-dev)
